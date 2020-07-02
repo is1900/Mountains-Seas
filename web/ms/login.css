@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ol li{
+    list-style-type:decimal ;
+    list-style-position: inside;
+}
+em,i{
+    font-style: normal;
+}
+
+img{
+    border:0;
+    vertical-align: middle;
+}
+button{
+    cursor: pointer;
+}
+a{
+    color: rgba(256,256,256,.6);
+    text-decoration: none;
+}
+a:hover{
+    color: #5b9ba9;
+}
+.header{
+    height: 50px;
+    line-height: 50px;
+}
+.line{
+    height: 1px;
+    background: rgba(256,256,256,.2);
+    width: 100%;
+}
+nav ul li{
+    float: right;
+    margin-right:30px;
+    list-style: none;
+}
+.logo{
+    float: left;
+    margin-left: 40px;;
+}
+.logo a{
+    font-size: 20px;
+    color: rgba(256,256,256,.9);
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+.banner{
+    height:839px;
+    width: 100%;
+    background: url("http://5b0988e595225.cdn.sohucs.com/images/20171102/941a5c1b41124775968c4f8925636285.jpeg") no-repeat;
+    background-size: 100%;
+}
+.banner .inner{
+    margin:0 auto;
+    min-width: 300px;
+    text-align: center;
+    color: #FFFFFF;
+    letter-spacing: 1.6px;
+    position: relative;
+    top: 140px;
+   /* background: rgba(91,155,169,.3);*/
+    background: rgba(256,256,256,.1);
+    padding: 10px 10px;
+    width: 40%;
+    border-radius: 50px;
+    height: 250px;
+}
+.purport{
+    font-family: 华文行楷;
+    letter-spacing: 5px;
+    color: rgba(256,256,256,.7);
+    font-size: 20px;
+    margin-top: 30px;
+}
+.inner button{
+    padding:3px 6px ;
+    border-radius: 5px;
+    background: #3c5e79;
+    border: none;
+    color: #FFFFFF;
+    letter-spacing: 2px;
+    cursor: pointer;
+    outline: none;
+}
+.button{
+    margin-left: 30px;
+}
+.inner input{
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding: 7px 0px 7px 5px;
+    height: 7px;
+}
