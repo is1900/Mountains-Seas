@@ -1,11 +1,23 @@
+a{
+    color: rgb(256,256,256);
+    text-decoration: none;
+}
+a:hover{
+    color: #5b9ba9;
+}
 .one{
-    height: 70px;
+    height: 60px;
     width: 100%;
     background: #3c5e79;
-    font-size: 25px;
-    font-family: "Fira Code";
+    font-size: 20px;
     color: #FFFFFF;
     align-content: center;
+    border-radius: 15px;
+}
+.logo{
+    float: left;
+    margin-left: 40px;
+    margin-top: 15px;
 }
 .two ul li{
     list-style: none;
