@@ -14,6 +14,7 @@ a:hover{
     align-content: center;
     border-radius: 15px;
 }
+
 .logo{
     float: left;
     margin-left: 40px;
@@ -61,7 +62,7 @@ a:hover{
 }
 .shoushi_r{
     margin-top: 30px;
-    margin-right: 300px;
+    margin-right: 235px;
 }
 .shoushi_rr{
     margin-top: 20px;
@@ -80,7 +81,7 @@ a:hover{
 }
 .clothes_r{
     margin-top: 30px;
-    margin-right: 283px;
+    margin-right: 235px;
 }
 .clothes_rr{
     margin-top: 20px;
@@ -89,8 +90,8 @@ a:hover{
     border: 1px solid #ccc;
     border-radius: 3px;
     padding: 7px 0px 7px 5px;
-    height: 7px;
-    width: 30px;
+    height: 20px;
+    width: 40px;
 }
 .button{
     text-align: center;  /*元素居中*/

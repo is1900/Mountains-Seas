@@ -49,7 +49,7 @@ nav ul li{
     letter-spacing: 2px;
 }
 .banner{
-    height:839px;
+    height:725px;
     width: 100%;
     background: url("http://5b0988e595225.cdn.sohucs.com/images/20171102/941a5c1b41124775968c4f8925636285.jpeg") no-repeat;
     background-size: 100%;
@@ -61,7 +61,7 @@ nav ul li{
     color: #FFFFFF;
     letter-spacing: 1.6px;
     position: relative;
-    top: 140px;
+    top: 180px;
    /* background: rgba(91,155,169,.3);*/
     background: rgba(256,256,256,.1);
     padding: 10px 10px;
@@ -94,4 +94,13 @@ nav ul li{
     border-radius: 3px;
     padding: 7px 0px 7px 5px;
     height: 7px;
+}
+/*错误信息*/
+.msg{
+    color: #ea8c37;
+    font-size: 14px;
+    padding-left: 40px;
+    padding-top: 10px;
+    clear: both;
+    font-weight: bold;
 }

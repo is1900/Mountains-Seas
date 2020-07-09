@@ -87,7 +87,7 @@
     <button style="border-radius: 5px;background: #edf4ed;border: none;color: black;letter-spacing: 2px;
                    cursor: pointer;height: 27px">
         <b>立即付款</b></button>
-    <a href="shop.html"><button style="border-radius: 5px;background:#edf4ed;border: none;color:black;letter-spacing: 2px;
+    <a href="shop.jsp"><button style="border-radius: 5px;background:#edf4ed;border: none;color:black;letter-spacing: 2px;
                    cursor: pointer;height: 27px"><b>取消订单</b></button></a>
     </div>
 </div>

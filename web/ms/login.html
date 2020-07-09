@@ -10,23 +10,14 @@
 <body>
 <section class="part_1">
     <div class="banner">
-        <header class="header">
-            <nav>
-                <ul>
-                    <li class="logo"><a href="#">Mountains&Seas</a></li>
-                    <li><a href="#">Menu</a></li>
-                    <li><a href="#">Top</a></li>
-                    <li><a href="#">Bottom</a></li>
-                    <li><a href="shop.html">Shop</a></li>
-                </ul>
-            </nav>
-        </header>
+
         <div class="line"></div>
         <div class="inner">
-        <form action="login.jsp" method="post"  >
+        <form action="#" method="post" onsubmit="return toVaild()">
             <div class="purport"><h2>山海向东倾 百川无尽势</h2></div><br>
-            <b>账号</b>：<input type="text" name="username"><br><br>
-            <div class="fm-button"><b>密码</b>：<input type="password" name="password"></div><br>
+            <b>账号</b>：<input type="text" name="username" id="username"><br><br>
+            <div class="fm-button"><b>密码</b>：<input type="password" name="password" id="password"></div><br>
+            <div id="CheckMsg" class="msg"></div>
             <div class="button">
                 <button type="submit" id="submit" style="margin-right:20px"><b>提交</b></button>
                 <button type="reset" id="reset"><b>重置</b></button>
@@ -39,6 +30,19 @@
 
 </body>
 </html>
-<script>
 
+<script>
+    function toVaild(form){
+
+        <!--用户名是否输入-->
+        var y=document.getElementById("username").value;
+        if(y==""||y==null){
+            alert("请输入用户名")
+        }
+        <!--密码是否输入-->
+        var n=document.getElementById("password").value;
+        if(n==""||y==null){
+            alert("请输入密码")
+        }
+    }
 </script>
