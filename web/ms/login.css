@@ -95,12 +95,3 @@ nav ul li{
     padding: 7px 0px 7px 5px;
     height: 7px;
 }
-/*错误信息*/
-.msg{
-    color: #ea8c37;
-    font-size: 14px;
-    padding-left: 40px;
-    padding-top: 10px;
-    clear: both;
-    font-weight: bold;
-}

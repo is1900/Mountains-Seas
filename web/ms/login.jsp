@@ -21,13 +21,21 @@ password=<%=request.getParameter("password")%>
     {
         out.println("welcome "+username);
         session.setAttribute("name",username);
-        response.sendRedirect("index.jsp");
+        response.sendRedirect("shop.jsp");
     }
     else
     {
-        out.println("登陆失败");
 
-        response.sendRedirect("login.html");
+        if(username!=""&&username!=null&&password!=""&&password!=null)
+        {
+            javax.swing.JOptionPane.showMessageDialog(null, "账号不存在，请先注册");
+            response.sendRedirect("login.html");
+            return;
+        }
+        else {
+            response.sendRedirect("login.html");
+        }
+
     }
 %>
 </body>

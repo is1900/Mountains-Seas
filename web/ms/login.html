@@ -13,11 +13,10 @@
 
         <div class="line"></div>
         <div class="inner">
-        <form action="#" method="post" onsubmit="return toVaild()">
+        <form action="login.jsp" method="post" onsubmit="return toVaild()">
             <div class="purport"><h2>山海向东倾 百川无尽势</h2></div><br>
             <b>账号</b>：<input type="text" name="username" id="username"><br><br>
             <div class="fm-button"><b>密码</b>：<input type="password" name="password" id="password"></div><br>
-            <div id="CheckMsg" class="msg"></div>
             <div class="button">
                 <button type="submit" id="submit" style="margin-right:20px"><b>提交</b></button>
                 <button type="reset" id="reset"><b>重置</b></button>
@@ -32,16 +31,15 @@
 </html>
 
 <script>
-    function toVaild(form){
-
+    function toVaild(){
+        var Username=document.getElementById("username").value;
+        var Password=document.getElementById("password").value;
         <!--用户名是否输入-->
-        var y=document.getElementById("username").value;
-        if(y==""||y==null){
-            alert("请输入用户名")
+        if(Username==""||Username==null){
+            alert("请输入账号")
         }
         <!--密码是否输入-->
-        var n=document.getElementById("password").value;
-        if(n==""||y==null){
+        else if(Password==""||Password==null){
             alert("请输入密码")
         }
     }

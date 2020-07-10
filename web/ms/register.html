@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>register</title>
+    <link rel="stylesheet" href="register.css">
+</head>
+<body>
+<div class="banner">
+<div align="middle" class="inner">
+    <form action="register.jsp" method="post" onsubmit="toVaild()">
+        <div class="purport"><h2>山海向东倾 百川无尽势</h2></div><br>
+        <b>设置账号：</b><input type="text" name="username" id="username"><br><br>
+        <b>设置密码：</b><input type="password" name="password" id="password"><br><br>
+        <b>确认密码：</b><input type="password" name="password1" id="password1"><br><br>
+        <div class="button" style="margin-bottom: 5px">
+        <button type="submit" value="SUBMIT" style="margin-right:20px"><b>提交</b></button>
+        <button type="reset" value="RESET"><b>重置</b></button><br>
+        </div>
+    </form>
+已有账号？<a href="login.html">请登录</a></div>
+</div>
+</body>
+</html>
+
+<script>
+    function toVaild(){
+        var Username=document.getElementById("username").value;
+        var Password=document.getElementById("password").value;
+        var Password1=document.getElementById("password1").value;
+        <!--用户名是否输入-->
+        if(Username==""||Username==null){
+            alert("请设置账号")
+        }
+        <!--密码是否输入-->
+        else if(Password==""||Password==null){
+            alert("请输入密码")
+        }
+        else if(Password1==""||Password1==null){
+            alert("请确认密码")
+        }
+    }
+</script>

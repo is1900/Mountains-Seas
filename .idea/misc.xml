@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/out/artifacts/Mountains_Seas_war_exploded/WEB-INF/web.xml" />
+    <file type="web" url="file://$PROJECT_DIR$/out/artifacts/Mountains_Seas_Web_exploded/WEB-INF/web.xml" />
+  </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_14" default="true" project-jdk-name="14" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
