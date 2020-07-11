@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ol li{
+    list-style-type:decimal ;
+    list-style-position: inside;
+}
+em,i{
+    font-style: normal;
+}
+
+img{
+    border:0;
+    vertical-align: middle;
+}
+button{
+    cursor: pointer;
+}
+a{
+    color: rgba(256,256,256,.8);
+    text-decoration: none;
+}
+a:hover{
+    color: #5b9ba9;
+}
+.header{
+    height: 50px;
+    line-height: 50px;
+}
+nav ul li{
+    float: left;
+    list-style: none;
+    font-size: 20px;
+    margin-left: 120px;
+}
+.logo{
+    float: left;
+    margin-left: 40px;;
+}
+.logo a{
+    font-size: 20px;
+    color: rgba(256,256,256,.9);
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+.line{
+    height: 1px;
+    background: rgba(256,256,256,.4);
+    width: 28%;
+}
+.line2{
+    width: 1px;
+    height: 50px;
+    background: rgba(256,256,256,.4);
+    margin-left: 28%;
+    margin-top: -50px;
+}
+.banner{
+    height:722px;
+    width: 1536px;
+    background: url("map.jpeg") no-repeat;
+    background-size: 100%;
+}
+
+.east{
+    width: 50px;
+    height: 30px;
+    color: #FFFFFF;
+    font-size: 27px;
+    font-family:华文新魏 ;
+    margin-top: 160px;
+    margin-right: 140px;
+    float:right;
+}
+.south{
+    width: 50px;
+    height: 30px;
+    color: #FFFFFF;
+    font-size: 27px;
+    font-family:华文新魏 ;
+    margin-top: 500px;
+    margin-right: 200px;
+    float:right;
+}
+.west{
+    width: 50px;
+    height: 30px;
+    color: #FFFFFF;
+    font-size: 27px;
+    font-family:华文新魏 ;
+    float: left;
+    margin-top: 180px;
+    margin-left: 500px;
+}
+.north{
+    width: 50px;
+    height: 30px;
+    color: #FFFFFF;
+    font-size: 27px;
+    font-family:华文新魏 ;
+    float: bottom;
+    margin-top: 80px;
+    margin-left: 980px;
+}
+.center{
+    width: 50px;
+    height: 30px;
+    color: #FFFFFF;
+    font-size: 27px;
+    font-family:华文新魏 ;
+    float: top;
+    margin-top: 150px;
+    margin-left: 980px;
+}
+.famine{
+    width: 50px;
+    height: 30px;
+    color: #FFFFFF;
+    font-size: 27px;
+    font-family:华文新魏 ;
+    float: bottom;
+    margin-top: 90px;
+    margin-left: 650px;
+
+}
+.sea{
+    width: 50px;
+    height: 30px;
+    color: #FFFFFF;
+    font-size: 27px;
+    font-family:华文新魏 ;
+    float: none;
+    margin-top: 10px;
+    margin-left: 150px;
+}

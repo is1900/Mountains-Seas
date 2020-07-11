@@ -16,7 +16,7 @@
 <body>
 <section class="part_1">
     <div class="one">
-       <div class="logo"><a href="login.html"> Mountains&Seas</a></div>
+       <div class="logo"><a href="map.html"> Mountains&Seas</a></div>
     </div>
 </section>
 <section class="part_2">

@@ -19,9 +19,9 @@ password=<%=request.getParameter("password")%>
     String password=request.getParameter("password");
     if(UserDao.login(username,password))
     {
-        out.println("welcome "+username);
+        javax.swing.JOptionPane.showMessageDialog(null, username+",欢迎登陆");
         session.setAttribute("name",username);
-        response.sendRedirect("shop.jsp");
+        response.sendRedirect("map.html");
     }
     else
     {
